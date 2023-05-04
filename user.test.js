@@ -5,5 +5,5 @@ test("Should return null when params is null", () => {
 });
 
 test("Should return Hello + name", () => {
-  expect(greeting("Haikel")).toBe("Hello Haikel");
+  expect(greeting("Haikel")).toBe("Hello, Haikel");
 });

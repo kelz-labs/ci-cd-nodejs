@@ -24,8 +24,8 @@ it("Call the /ping endpoint", async (done) => {
 });
 
 it("Call the /hello:name endpoint", async (done) => {
-  const res = await request.get("/hello/haikel");
+  const res = await request.get("/hello/Haikel");
   expect(res.status).toBe(200);
-  expect(res.body.message).toBe("Hello Haikel");
+  expect(res.body.message).toBe("Hello, Haikel");
   done();
 });
