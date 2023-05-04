@@ -1,9 +1,10 @@
 const greeting = (name) => {
   if (name) {
-    return `Hello, ${name}`;
+    return `Hello ${name}`;
   }
-
   return;
 };
 
-module.exports = { greeting };
+module.exports = {
+  greeting,
+};
